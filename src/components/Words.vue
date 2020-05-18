@@ -32,11 +32,13 @@ export default {
         }
 
         let dictionaryWordArray = dictionaryWord
+          .toLowerCase()
           .split('')
           .sort()
           .join('');
 
         let wordArray = this.word
+          .toLowerCase()
           .split('')
           .sort()
           .join('');
